@@ -22,4 +22,6 @@ dependencies {
     compileOnly 'net.ess3:EssentialsX:2.17.2'
     compileOnly(project(':spigot'))
     compileOnly(project(path: ':spigot', configuration: 'spigot'))
+    compileOnly 'org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT'
+
 }

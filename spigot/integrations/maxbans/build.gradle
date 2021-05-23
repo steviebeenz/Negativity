@@ -21,4 +21,6 @@ dependencies {
     compileOnly 'org.maxgamer:MaxBans:2.7'
     compileOnly(project(':spigot'))
     compileOnly(project(path: ':spigot', configuration: 'spigot'))
+    compileOnly 'org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT'
+
 }

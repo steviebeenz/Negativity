@@ -23,4 +23,5 @@ dependencies {
     compileOnly 'com.sk89q.worldedit:worldedit-core:6.1.1-SNAPSHOT'
     compileOnly(project(':spigot'))
     compileOnly(project(path: ':spigot', configuration: 'spigot'))
+    compileOnly 'org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT'
 }

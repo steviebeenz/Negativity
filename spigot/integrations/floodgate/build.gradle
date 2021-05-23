@@ -21,4 +21,5 @@ dependencies {
     compileOnly 'org.geysermc:FloodGate:1.0-SNAPSHOT'
     compileOnly(project(':spigot'))
     compileOnly(project(path: ':spigot', configuration: 'spigot'))
+    compileOnly 'org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT'
 }

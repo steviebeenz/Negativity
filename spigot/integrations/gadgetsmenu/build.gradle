@@ -15,10 +15,16 @@ repositories {
             artifact()
         }
     }
+    maven {
+        name 'spigot'
+        url 'https://repo.codemc.org/repository/nms/'
+    }
 }
 
 dependencies {
     compileOnly 'com.yapzhenyie:GadgetsMenu:4.3.29'
     compileOnly(project(':spigot'))
     compileOnly(project(path: ':spigot', configuration: 'spigot'))
+    compileOnly 'org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT'
+
 }

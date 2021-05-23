@@ -38,6 +38,10 @@ subprojects {
             name 'codemc'
             url 'https://repo.codemc.org/repository/maven-public/'
         }
+        maven {
+            name 'NMS'
+            url 'https://repo.codemc.org/repository/nms/'
+        }
     }
 
     dependencies {
